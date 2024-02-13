@@ -25,6 +25,8 @@ justify-content: center;
   .photo img {
     width: 100px; /* Ensure the image fills the container */
     height: auto; /* Maintain aspect ratio */
+    border: 1px solid black;
+    border-radius:25px;
     z-index:2;
   }
   
