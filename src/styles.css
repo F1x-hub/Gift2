@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://d3gz42uwgl1r1y.cloudfront.net/ed/edgymagpie/submission/2020/11/7585193fc53638ee507906f139ac30c2/2500x1500.jpg");
+    background-position: center;
+    background-size: 100% 200vh;
+    background-repeat: no-repeat;
+}

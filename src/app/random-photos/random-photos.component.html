@@ -1,0 +1,16 @@
+<div>
+  <div class="card">
+    <h1>Мини Игра</h1>
+    <p>Score: {{ score }}</p>
+    <p>Time left: {{ timeLeft }}</p>
+  </div>
+  
+  <div class="photos-container">
+    <div *ngIf="showLargePhoto" class="large-photo">
+      <img src="https://i.pinimg.com/originals/38/f2/5b/38f25b88ce886367ffe95c341ec1713c.jpg" alt="Large photo">
+    </div>
+    <div class="photo" *ngFor="let photo of photos" [style.left.px]="photo.x" [style.top.px]="photo.y" (click)="handleClick(photo)">
+      <img [src]="photo.path" alt="photo">
+    </div>
+  </div>
+</div>
